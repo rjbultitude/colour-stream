@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+	<title>Waterfall Sketch / P5.js</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<style>
+ 		/*fonts*/
+ 		@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300);
+
+ 		/*Container styles*/
+ 		body {
+ 			padding: 0;
+ 			margin: 0;
+ 			text-align: center;
+ 			width: 100%;
+ 			color: black;
+ 			font-family: 'Roboto Condensed', sans-serif;
+ 			font-weight: 400;
+ 		}
+ 		.info-box {
+ 			padding: 0.5em;
+ 			max-width: 50em;
+ 			margin: 0 auto;
+ 		}
+ 		button {
+ 			padding: 0.75em 1.25em;
+ 			font-size: 1em;
+ 		}
+ 		#defaultCanvas {
+ 			display: inline-block;
+ 			width: 100% !important;
+ 			height: auto !important;
+ 			max-width: 600px;
+ 			max-height: 1400px;
+ 		}
+ 		/*Type styles*/
+ 		h1 {
+ 			margin-bottom: 0.1em;
+ 			font-weight: 300;
+ 		}
+ 		h2 {
+ 			margin: 0.1em 0;
+ 			font-weight: 300;
+ 		}
+ 	</style>
+</head>
+
+<body>
+<div id="canvas-container">
+</div>
+<div class="info-box">
+	<h1>Waterfalll</h1>
+	<h2>Made with p5.js</h2>
+	<p>Watch the streams cascade. Click anywhere to reset</p>
+	<div class="controls">
+		<button id="save">Save image</button>
+	</div>
+</div>
+<script language="javascript" src="p5.js"></script>
+<script language="javascript" src="sketch.js"></script>
+</body>

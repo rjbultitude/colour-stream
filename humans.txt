@@ -1,0 +1,23 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# COMPANY
+
+Company: n/a
+Site: http://www.point-b.co.uk
+Twitter: @pointbmusic
+GitHub: @rjbultitude
+Location: London, UK
+
+# TEAM
+
+    Richard Bultitude
+
+# THANKS
+
+    P5 & Processing
+
+# TECHNOLOGY COLOPHON
+
+    HTML5 Canvas
+    Javascript, p5
