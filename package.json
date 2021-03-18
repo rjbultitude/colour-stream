@@ -1,0 +1,22 @@
+{
+  "name": "colour-stream",
+  "version": "1.0.0",
+  "description": "## References",
+  "main": "sketch.js",
+  "scripts": {
+    "start": "http-server -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rjbultitude/colour-stream.git"
+  },
+  "author": "Richard Bultitude",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rjbultitude/colour-stream/issues"
+  },
+  "homepage": "https://github.com/rjbultitude/colour-stream#readme",
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
+}
